@@ -28,6 +28,42 @@ Team Members and Roles:
     - Testing Data Translation Methods
         - Research and evaluate different methods for translating EEG data into actionable commands or words
         -  Conduct experiments to test the accuracy and efficiency of selected data translation methods
+- Sprint 2
+    - Pair Programming
+        - Pair programmers work together on implementing core functionalities
+        - Foster collaboration and knowledge sharing between team members through pair programming sessions
+    - First Iterations of Deep Learning Model
+        - Develop initial versions of the deep learning model
+        - Train the model using collected EEG data and iterate based on performance evaluation
+    - First Iterations of UI
+        - Iterate on the front-end interface based on feedback from usability testing conducted in Sprint 1
+        - Implement UI components that support the visualization of translated actions or words in real-time
+    - Usability Testing (Front End)
+        - Design and develop a basic front-end interface for the EEG translation system
+        - Conduct usability testing sessions with potential users to gather feedback on the interface design and user experience
+    - Testing
+        - Conduct comprehensive testing of implemented functionalities to identify and address any defects or issues
+        - Perform integration testing to ensure seamless interaction between the deep learning model and the front-end interface
+- Sprint 3
+    - Refactoring
+        - Review and refactor codebase to improve readability, maintainability, and scalability
+        - Optimize performance where necessary
+    - Testing
+    - Continue testing activities to validate the reliability and accuracy
+    - Implement automated testing frameworks to streamline testing process and ensure consistent results
+- Sprint 4
+    - Feature-Driven Development
+        - Implement additional features and enhancements based on client feedback and project requirements
+        - Prioritize feature implementation based on their impact on the overall system functionality
+    - Scaled Agile Framework
+        - Apply principles of the Scaled Agile Framework (SAFe) to coordinate work across components of the project
+        - Facilitate alignment and collaboration between team to ensure successful project delivery
+    - Final Touches
+        - Perform final testing and validation of the EEG translation system to ensure readiness for deployment
+        - Address any remaining issues or bugs identified during testing
+    - End of Project
+        - Finalize all documentation
+        - Presentations and submission
 
 
 
