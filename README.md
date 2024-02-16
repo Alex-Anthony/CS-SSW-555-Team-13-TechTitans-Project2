@@ -15,21 +15,21 @@ Team Members and Roles:
 - Moyosola Omole - Frontend
 
 **List & Description of Each Sprint:**
-**Sprint 1**
-- Scrum
-- Testing Data Translation Methods
-- Usability Testing (Front End)
-- User Stories and Use Cases
-**Sprint 2**
-- Pair Programming
-**Sprint 3**
-- Refactoring
-**Sprint 4**
-- Crystal
-- Feature-Driven Development
-- Scaled Agile Framework
-- Final Touches
-- End of Project
+- Sprint 1
+    - Scrum
+    - Testing Data Translation Methods
+    - Usability Testing (Front End)
+    - User Stories and Use Cases
+- Sprint 2
+    - Pair Programming
+- Sprint 3
+    - Refactoring
+- Sprint 4
+    - Crystal
+    - Feature-Driven Development
+    - Scaled Agile Framework
+    - Final Touches
+    - End of Project
 
 
 
