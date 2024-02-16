@@ -7,12 +7,12 @@ Tech Titans - Team 13
 The primary objective of the project is to develop an EEG translation system, capable of translating specific thoughts into actionable commands or words. It has the potential to transform a lot of different fields including healthcare, and immersive experiences in virtual and augmented reality, as well as gaming. Specifically for our project we will focus on implementing the augmented output of the deep learning model to command an avatar to perform a few actions.
 
 Team Members and Roles:
-Alexandra Anthony - Scrum Master
-Neeti Mistry - Backend
-Sara Gaber - Backend
-Akram Amer - Frontend
-Carl Guillaume - Frontend
-Moyosola Omole - Frontend
+- Alexandra Anthony - Scrum Master
+- Neeti Mistry - Backend
+- Sara Gaber - Backend
+- Akram Amer - Frontend
+- Carl Guillaume - Frontend
+- Moyosola Omole - Frontend
 
 **List & Description of Each Sprint:**
 **Sprint 1**
