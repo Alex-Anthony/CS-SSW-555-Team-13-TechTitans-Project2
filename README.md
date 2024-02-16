@@ -16,22 +16,18 @@ Team Members and Roles:
 
 **List & Description of Each Sprint:**
 - Sprint 1
-    - Scrum
+    - Discuss Core and Creative Functionalities with Team
+        - Hold brainstorming sessions to identify essential and innovative features of the EEG translation system
+        - Collaborate with team members to prioritize functionalities based on feasibility and impact
+    - Create User Stories and Use Cases
+        - Define user stories and use cases that capture the functional requirements of the system
+        - Prioritize user stories based on business value and feasibility for implementation in subsequent sprints
+    - Scrum Testing
+        - Set up the Scrum framework for project management, including defining roles and necessary artifacts
+        - Conduct initial Scrum testing to ensure the team's understanding and adherence to Scrum principles
     - Testing Data Translation Methods
-    - Usability Testing (Front End)
-    - User Stories and Use Cases
-- Sprint 2
-    - Pair Programming
-- Sprint 3
-    - Refactoring
-- Sprint 4
-    - Crystal
-    - Feature-Driven Development
-    - Scaled Agile Framework
-    - Final Touches
-    - End of Project
-
-
+        - Research and evaluate different methods for translating EEG data into actionable commands or words
+        -  Conduct experiments to test the accuracy and efficiency of selected data translation methods
 
 
 
