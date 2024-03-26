@@ -4,7 +4,7 @@ Tech Titans - Team 13
 **Selected Project Option Number: Option 2: Brain–Computer Interface (BCI) Project**
 
 **Main Objective of Project:**
-The primary objective of the project is to develop an EEG translation system, capable of translating specific thoughts into actionable commands or words. It has the potential to transform a lot of different fields including healthcare, and immersive experiences in virtual and augmented reality, as well as gaming. Specifically for our project we will focus on implementing the augmented output of the deep learning model to command an avatar to perform a few actions.
+The primary objective of the project is to develop an EEG translation system, capable of translating specific thoughts into actionable commands or words. It has the potential to transform a lot of different fields including healthcare, and immersive experiences in virtual and augmented reality, as well as gaming. Specifically for our project we will focus on implementing the augmented output of the deep learning model to command an avatar to perform a few actions. We are planning on utilizing a static avatar that will be able to give you a visualization of the machine learning models “guess” vs. the actual intended work or phrase. We are using a react web-app space and a machine learning model made in python to complete this task.
 
 Team Members and Roles:
 - Alexandra Anthony - Scrum Master
