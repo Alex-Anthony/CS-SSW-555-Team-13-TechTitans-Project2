@@ -9,7 +9,15 @@ const page = () => {
       <Navbar></Navbar>
       <Title title="Avatar"></Title>
       <div className="p-5">
-        <Avatar></Avatar>
+        <div className="flex flex-cols-2 p-5 justify-items-stretch">
+          <div className="flex basis-1/2 justify-center">
+            <Avatar></Avatar>
+          </div>
+          <div className="flex basis-1/2 justify-center">
+            <Avatar></Avatar>
+          </div>
+
+        </div>
       </div>
     </div>
   );
