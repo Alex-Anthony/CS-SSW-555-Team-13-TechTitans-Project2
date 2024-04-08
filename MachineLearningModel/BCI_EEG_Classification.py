@@ -10,13 +10,15 @@
 # You can download it from this Google Drive link: [https://drive.google.com/drive/folders/1ykR-mn4d4KfFeeNrfR6UdtebsNRY8PU2?usp=sharing].
 # Please download the data and place it in your data_path at "./data."
 
-# In[1]:
+# In[16]:
 
 
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.optim as optim
+import pandas as pd
+import csv
 from torch.utils.data import DataLoader, TensorDataset
 
 
@@ -26,7 +28,7 @@ from torch.utils.data import DataLoader, TensorDataset
 data_path = 'data/'
 
 
-# In[5]:
+# In[3]:
 
 
 train_data = np.load(data_path + 'train_data.npy')
@@ -41,13 +43,13 @@ x_test_tensor = torch.Tensor(test_data)
 y_test_tensor = torch.LongTensor(test_label)
 
 
-# In[6]:
+# In[4]:
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") #Setting GPU on your computer
 
 
-# In[7]:
+# In[5]:
 
 
 train_dataset = TensorDataset(x_train_tensor.to(device), y_train_tensor.to(device)) # input data to Tensor dataloader
@@ -56,24 +58,36 @@ test_dataset = TensorDataset(x_test_tensor.to(device), y_test_tensor.to(device))
 test_loader = DataLoader(test_dataset, batch_size=64,  drop_last=True,shuffle=False)
 
 
+# # Show Data
+
+# In[ ]:
+
+
+
+
+
 # # Build simple Deep learning model
 
-# In[8]:
+# In[6]:
 
 
 class EEGAutoencoderClassifier(nn.Module):
     def __init__(self, num_classes):
         super(EEGAutoencoderClassifier, self).__init__()
         self.encoder = nn.Sequential(
-            nn.Linear(64 * 795, 256), # Input dimention is 64 channel * 795 time point, and use 256 units for first NN layer
+            nn.Linear(64 * 795, 512), # Input dimention is 64 channel * 795 time point, and use 256 units for first NN layer
             nn.ReLU(), # Use ReLu function for NN training
-            nn.Linear(256, 128), # 256 NN units to 128 units
+            nn.Linear(512, 256), # 256 NN units to 128 units
             nn.ReLU(),
-            nn.Linear(128, 64),#  128 NN units to 64 units
+            nn.Linear(256, 128),#  128 NN units to 64 units
+            nn.ReLU(),
+            nn.Linear(128, 64),
+            nn.ReLU(),
+            nn.Linear(64,32),
             nn.ReLU()
         )
         self.classifier = nn.Sequential(
-            nn.Linear(64, num_classes), # num_classes is 5 (hello,” “help me,” “stop,” “thank you,” and “yes”)
+            nn.Linear(32, num_classes), # num_classes is 5 (hello,” “help me,” “stop,” “thank you,” and “yes”)
             nn.LogSoftmax(dim=1)  # Use LogSoftmax for multi-class classification
         )
 
@@ -86,19 +100,24 @@ class EEGAutoencoderClassifier(nn.Module):
         return x
 
 
-# In[9]:
+# In[7]:
 
 
 num_classes = 5 # setting final output class
 model = EEGAutoencoderClassifier(num_classes).to(device)
 criterion = nn.NLLLoss() # Use NLLLoss function to optimize
-optimizer = optim.Adam(model.parameters(), lr=0.0001) # Setting parameters learning rate = 0.001
 
 
-# In[10]:
+# In[8]:
 
 
-num_epochs = 30 # setting training epochs (Number of training iterations)
+optimizer = optim.Adam(model.parameters(), lr=0.0001) # Setting parameters learning rate = 0.0001
+
+
+# In[9]:
+
+
+num_epochs = 20 # setting training epochs (Number of training iterations)
 for epoch in range(num_epochs):
     model.train()
     for data, labels in train_loader:
@@ -111,7 +130,7 @@ for epoch in range(num_epochs):
     print(f'Epoch {epoch + 1}/{num_epochs}, Loss: {loss.item()}')
 
 
-# In[38]:
+# In[10]:
 
 
 model.eval() # Evaluate your model
@@ -133,7 +152,7 @@ print(f'Test Accuracy: {accuracy * 100:.2f}%')
 #print(outcomes)
 
 
-# In[39]:
+# In[11]:
 
 
 def output_interpret(out):
@@ -152,7 +171,7 @@ def output_interpret(out):
     return "fail"
 
 
-# In[69]:
+# In[14]:
 
 
 def data_and_predictions():
@@ -165,11 +184,16 @@ def data_and_predictions():
     
     return result
 
-#print(data_and_predictions())
+print(data_and_predictions())
 
 
-# In[ ]:
+# In[20]:
 
 
-
+data = data_and_predictions()
+with open('model_outcomes.csv','w') as out:
+    csv_out=csv.writer(out)
+    #csv_out.writerow(['data','prediction'])
+    for row in data:
+        csv_out.writerow(row)
 
