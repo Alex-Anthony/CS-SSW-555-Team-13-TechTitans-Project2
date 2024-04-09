@@ -1,9 +1,9 @@
+
 import React from "react";
 import Navbar from "../components/Navbar";
-import Avatar from "../components/Avatar";
 import Title from "../components/Title";
-import NewDataButton from "../components/NewDataButton";
-import GetMessage from "../components/GetMessage";
+import { myOutcomes } from "@/app/components/GetMessage";
+import NewAvatar from "../components/NewAvatar";
 
 const page = () => {
   return (
@@ -11,23 +11,9 @@ const page = () => {
       <Navbar></Navbar>
       <Title title="Avatar"></Title>
       <div className="p-5">
-        <div className="flex flex-cols-2 p-5 justify-items-stretch">
-          <div className="flex basis-1/2 justify-center items-stretch">
-            <Avatar>
-              <GetMessage></GetMessage>
-            </Avatar>
-          </div>
-          <div className="flex basis-1/2 justify-center">
-            <Avatar>
-              stop
-            </Avatar>
-          </div>
-        </div>
-      </div>
-      <div className="flex w-full justify-center">
-        <NewDataButton></NewDataButton>
-      </div>
+        <NewAvatar getoutcomes={myOutcomes}></NewAvatar>
 
+      </div>
     </div>
   );
 };

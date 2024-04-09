@@ -1,33 +1,34 @@
+
 import React from 'react'
 import Papa from 'papaparse'
-import { Truculenta } from 'next/font/google';
-//import outcomes from '@/model_outcomes.csv'
+import fs from 'fs'
+import path from 'path'
 
 
-const GetMessage = () => {
-
-    interface Outcome {
-        data: string;
-        prediction: string;
-    }
-
-    const parseFile = (csvData = 'model_outcomes.csv'): Outcome[] => {
-        const parsed = Papa.parse<Outcome>(csvData, {
-            header: true,
-            dynamicTyping: true
-        });
-        return parsed.data;
-    }
-
-    const myOutcomes: Outcome[] = parseFile();
-
-
-    return (
-
-        <div className='text'>
-            your prediction: {'model_outcomes.csv'.toString()}
-        </div>
-    )
+interface Outcome {
+    data: string;
+    prediction: string;
 }
 
-export default GetMessage
+const csvFilePath = path.resolve(__dirname, '/workspaces/CS-SSW-555-Team-13-TechTitans-Project2/interface/eeg-web/model_outcomes.csv');
+const fileContent = fs.readFileSync(csvFilePath, { encoding: 'utf-8' });
+
+const parseFile = (csvData = fileContent): Outcome[] => {
+    const parsed = Papa.parse<Outcome>(csvData, {
+        delimiter: ',',
+        newline: '\r',
+        skipEmptyLines: true,
+        header: true,
+        dynamicTyping: true,
+        //complete: console.log("done")
+    });
+    return parsed.data;
+}
+
+const myOutcomes: Outcome[] = parseFile();
+
+export { myOutcomes }
+
+
+
+
