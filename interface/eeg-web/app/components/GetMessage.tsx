@@ -1,5 +1,8 @@
 import React from 'react'
 import Papa from 'papaparse'
+import { Truculenta } from 'next/font/google';
+//import outcomes from '@/model_outcomes.csv'
+
 
 const GetMessage = () => {
 
@@ -8,7 +11,7 @@ const GetMessage = () => {
         prediction: string;
     }
 
-    const parseFile = (csvData: string): Outcome[] => {
+    const parseFile = (csvData = 'model_outcomes.csv'): Outcome[] => {
         const parsed = Papa.parse<Outcome>(csvData, {
             header: true,
             dynamicTyping: true
@@ -16,11 +19,13 @@ const GetMessage = () => {
         return parsed.data;
     }
 
+    const myOutcomes: Outcome[] = parseFile();
+
 
     return (
-        <div>
 
-            {parseFile('MachineLearningModel/model_outcomes.csv')[0].data + " " + parseFile('MachineLearningModel/model_outcomes.csv')[0].prediction}
+        <div className='text'>
+            your prediction: {'model_outcomes.csv'.toString()}
         </div>
     )
 }

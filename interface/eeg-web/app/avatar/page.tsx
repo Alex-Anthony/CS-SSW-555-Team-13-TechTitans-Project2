@@ -12,7 +12,7 @@ const page = () => {
       <Title title="Avatar"></Title>
       <div className="p-5">
         <div className="flex flex-cols-2 p-5 justify-items-stretch">
-          <div className="flex basis-1/2 justify-center">
+          <div className="flex basis-1/2 justify-center items-stretch">
             <Avatar>
               <GetMessage></GetMessage>
             </Avatar>

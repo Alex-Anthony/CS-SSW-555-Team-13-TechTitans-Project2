@@ -1,115 +1,116 @@
+data,prediction
 thank you,thank you
-yes,thank you
+yes,hello
 help me,help me
-stop,yes
-help me,help me
+stop,hello
+help me,yes
 yes,thank you
 thank you,thank you
-help me,thank you
+help me,help me
 stop,stop
 stop,hello
 stop,thank you
 hello,hello
 stop,yes
 help me,help me
-help me,help me
-stop,stop
-help me,help me
-yes,yes
-yes,yes
 help me,thank you
+stop,yes
+help me,help me
+yes,yes
+yes,thank you
+help me,stop
 hello,hello
 help me,help me
+hello,help me
+stop,yes
+thank you,hello
 hello,hello
-stop,thank you
-thank you,stop
-hello,hello
-thank you,thank you
+thank you,help me
 thank you,thank you
 thank you,stop
-thank you,thank you
+thank you,stop
 hello,hello
 thank you,thank you
 yes,yes
 stop,stop
 yes,thank you
-hello,yes
+hello,help me
 help me,stop
+yes,help me
 yes,yes
-yes,yes
-hello,stop
+hello,thank you
 yes,stop
-help me,help me
+help me,hello
 hello,yes
 stop,stop
 yes,yes
-thank you,thank you
+thank you,stop
 hello,yes
 hello,yes
 stop,hello
-thank you,thank you
-help me,stop
-hello,stop
-stop,thank you
-help me,hello
-help me,hello
-help me,stop
-yes,yes
-thank you,help me
-stop,thank you
-stop,thank you
-thank you,thank you
-thank you,thank you
-yes,hello
-help me,help me
-yes,yes
-yes,stop
-hello,stop
-yes,thank you
-yes,stop
-thank you,thank you
-hello,stop
-yes,thank you
-thank you,yes
-hello,yes
-hello,hello
-stop,stop
-stop,thank you
-hello,stop
-yes,yes
-stop,stop
-yes,stop
-hello,yes
-yes,stop
-help me,thank you
-stop,stop
-hello,yes
-help me,hello
-help me,stop
-hello,hello
-stop,stop
-stop,stop
-thank you,yes
-hello,yes
-thank you,thank you
-stop,stop
-help me,stop
-thank you,thank you
-thank you,thank you
-help me,help me
 thank you,hello
+help me,stop
+hello,stop
 stop,thank you
-thank you,thank you
+help me,hello
+help me,hello
+help me,stop
 yes,yes
+thank you,thank you
+stop,thank you
+stop,thank you
+thank you,help me
+thank you,thank you
+yes,thank you
+help me,stop
+yes,yes
+yes,thank you
 hello,thank you
 yes,thank you
+yes,thank you
 thank you,thank you
+hello,thank you
+yes,thank you
+thank you,yes
+hello,hello
+hello,hello
+stop,help me
+stop,hello
+hello,thank you
+yes,yes
+stop,help me
+yes,stop
+hello,hello
+yes,stop
+help me,help me
+stop,thank you
+hello,hello
+help me,hello
+help me,thank you
+hello,thank you
+stop,stop
+stop,stop
+thank you,yes
+hello,yes
+thank you,thank you
+stop,hello
+help me,help me
+thank you,thank you
+thank you,thank you
+help me,help me
+thank you,stop
+stop,stop
+thank you,thank you
+yes,hello
+hello,hello
+yes,thank you
+thank you,hello
 thank you,thank you
 hello,yes
-stop,thank you
+stop,help me
 stop,yes
 hello,hello
-hello,yes
+hello,hello
 thank you,thank you
 thank you,thank you
 hello,hello
@@ -117,25 +118,25 @@ hello,hello
 help me,help me
 thank you,thank you
 help me,help me
-stop,stop
+stop,hello
 stop,hello
 yes,yes
-stop,yes
+stop,stop
 thank you,thank you
 help me,help me
 thank you,thank you
+hello,help me
 hello,hello
-hello,hello
-thank you,yes
-yes,yes
-yes,yes
-stop,stop
-stop,stop
 thank you,thank you
+yes,yes
 yes,thank you
+stop,stop
+stop,stop
+thank you,thank you
+yes,help me
+help me,yes
 help me,help me
-help me,help me
-hello,hello
+hello,help me
 yes,yes
 help me,help me
 stop,stop
@@ -143,122 +144,122 @@ help me,stop
 yes,yes
 yes,yes
 help me,thank you
-help me,stop
 help me,thank you
+help me,help me
 stop,stop
 hello,yes
-yes,yes
+yes,hello
 yes,thank you
-stop,yes
-hello,yes
+stop,thank you
+hello,thank you
 yes,yes
-help me,stop
+help me,help me
 hello,help me
 stop,thank you
-help me,thank you
-stop,stop
-stop,stop
-help me,yes
-yes,yes
-thank you,thank you
-help me,help me
-hello,hello
-help me,stop
-stop,stop
-hello,yes
-stop,yes
-yes,stop
-thank you,help me
-stop,stop
-yes,yes
-hello,hello
-yes,yes
-thank you,thank you
-yes,yes
-thank you,help me
-help me,hello
-hello,hello
-help me,help me
-yes,help me
-hello,hello
-hello,hello
-stop,stop
-help me,help me
-hello,yes
-thank you,help me
-stop,help me
-thank you,thank you
-thank you,yes
-thank you,help me
-help me,stop
-thank you,thank you
-yes,stop
-hello,hello
-help me,help me
-yes,yes
-thank you,help me
-stop,stop
-yes,yes
-hello,hello
-yes,stop
-yes,yes
-stop,stop
-yes,yes
-yes,yes
-hello,thank you
-thank you,thank you
-help me,hello
-thank you,stop
-stop,stop
-yes,stop
-thank you,yes
-hello,hello
-thank you,stop
-help me,help me
-help me,thank you
-thank you,yes
-help me,help me
-yes,yes
-yes,help me
-help me,yes
-stop,hello
-yes,yes
-hello,thank you
-thank you,yes
-thank you,thank you
-stop,stop
-hello,stop
-help me,help me
-thank you,hello
-help me,help me
-help me,stop
-stop,stop
-hello,stop
-hello,help me
-yes,yes
-thank you,stop
-stop,stop
-stop,stop
-stop,stop
-stop,stop
-hello,help me
-hello,hello
 help me,thank you
 stop,hello
-help me,hello
-hello,hello
+stop,stop
+help me,help me
+yes,stop
 thank you,thank you
-yes,thank you
-yes,thank you
+help me,help me
 hello,hello
 help me,stop
+stop,thank you
 hello,hello
+stop,thank you
+yes,help me
+thank you,thank you
+stop,stop
+yes,yes
+hello,hello
+yes,yes
+thank you,thank you
+yes,stop
+thank you,thank you
+help me,hello
+hello,thank you
+help me,help me
+yes,yes
+hello,hello
+hello,hello
+stop,thank you
+help me,help me
+hello,yes
+thank you,thank you
+stop,help me
+thank you,thank you
+thank you,yes
+thank you,thank you
+help me,help me
+thank you,thank you
+yes,stop
+hello,yes
+help me,thank you
+yes,yes
+thank you,thank you
+stop,help me
+yes,yes
+hello,hello
+yes,stop
+yes,thank you
+stop,stop
+yes,thank you
+yes,yes
+hello,thank you
+thank you,thank you
+help me,thank you
+thank you,stop
+stop,stop
+yes,hello
+thank you,hello
+hello,hello
+thank you,stop
+help me,help me
+help me,hello
+thank you,stop
+help me,thank you
+yes,yes
+yes,yes
+help me,yes
+stop,hello
+yes,hello
+hello,thank you
+thank you,thank you
+thank you,thank you
+stop,yes
+hello,thank you
+help me,help me
+thank you,thank you
+help me,hello
+help me,stop
+stop,stop
+hello,stop
+hello,thank you
+yes,yes
+thank you,stop
+stop,thank you
+stop,stop
+stop,stop
+stop,stop
+hello,hello
+hello,thank you
+help me,thank you
+stop,stop
+help me,hello
+hello,thank you
+thank you,thank you
+yes,thank you
+yes,stop
+hello,thank you
+help me,help me
 hello,help me
+hello,thank you
 thank you,help me
 help me,help me
-stop,help me
+stop,thank you
 thank you,yes
-hello,yes
+hello,hello
 thank you,thank you
 stop,stop
 help me,thank you
@@ -268,33 +269,33 @@ yes,help me
 stop,stop
 help me,thank you
 help me,stop
-hello,hello
-help me,help me
-thank you,yes
-hello,hello
-help me,stop
-yes,stop
+hello,stop
+help me,thank you
+thank you,hello
+hello,yes
+help me,thank you
+yes,thank you
 stop,stop
 help me,yes
-help me,stop
-thank you,thank you
-thank you,stop
-hello,hello
-hello,yes
-stop,thank you
-thank you,yes
-hello,thank you
 help me,thank you
+thank you,thank you
+thank you,thank you
+hello,hello
+hello,thank you
+stop,thank you
+thank you,hello
+hello,thank you
+help me,hello
 yes,yes
 stop,hello
-thank you,help me
-yes,help me
-thank you,help me
-yes,help me
+thank you,hello
 yes,yes
-thank you,yes
+thank you,thank you
+yes,yes
+yes,yes
+thank you,thank you
 hello,yes
-yes,help me
+yes,thank you
 yes,yes
 stop,yes
 stop,help me
@@ -302,250 +303,250 @@ thank you,thank you
 hello,yes
 yes,yes
 help me,thank you
-stop,thank you
+stop,help me
 hello,hello
 hello,help me
-hello,hello
-stop,stop
-thank you,yes
-help me,yes
-yes,yes
-hello,hello
-thank you,thank you
-thank you,thank you
 hello,hello
 stop,hello
-help me,thank you
-stop,stop
-help me,help me
-help me,help me
-thank you,thank you
-help me,help me
-stop,stop
-thank you,thank you
-stop,stop
+thank you,yes
+help me,yes
+yes,hello
 hello,hello
-yes,stop
+thank you,hello
+thank you,yes
+hello,thank you
+stop,stop
+help me,help me
+stop,help me
+help me,help me
+help me,help me
 thank you,thank you
-help me,thank you
+help me,help me
+stop,yes
+thank you,thank you
+stop,stop
+hello,stop
+yes,help me
+thank you,thank you
+help me,help me
 yes,thank you
 stop,stop
-hello,help me
+hello,thank you
 yes,yes
-stop,stop
+stop,hello
 thank you,thank you
 yes,yes
 thank you,thank you
-stop,thank you
-help me,hello
-yes,yes
+stop,yes
+help me,help me
+yes,thank you
 hello,help me
 stop,yes
-yes,yes
-thank you,stop
+yes,hello
+thank you,thank you
 help me,hello
 yes,yes
 help me,stop
 yes,yes
 hello,hello
 thank you,thank you
-thank you,hello
+thank you,thank you
 stop,thank you
-hello,hello
 hello,thank you
-stop,stop
+hello,thank you
+stop,thank you
 help me,help me
-hello,help me
-thank you,help me
-stop,stop
+hello,thank you
+thank you,yes
+stop,help me
 thank you,thank you
-yes,yes
+yes,thank you
 help me,help me
-help me,help me
-thank you,thank you
+help me,yes
+thank you,stop
 help me,help me
 thank you,thank you
 help me,stop
-stop,stop
+stop,help me
 stop,stop
 yes,thank you
 yes,yes
-help me,help me
+help me,yes
 thank you,thank you
-hello,hello
+hello,thank you
 yes,yes
 hello,thank you
 hello,hello
-help me,help me
+help me,yes
 yes,hello
 stop,stop
-help me,help me
-yes,help me
+help me,hello
+yes,yes
 hello,thank you
+thank you,stop
 thank you,thank you
-thank you,thank you
-hello,help me
+hello,yes
 help me,yes
 help me,hello
-stop,stop
-yes,help me
+stop,help me
+yes,yes
 stop,thank you
 hello,stop
-hello,help me
+hello,yes
 yes,stop
-yes,help me
+yes,yes
 stop,help me
-stop,thank you
+stop,stop
 thank you,thank you
 yes,yes
 hello,thank you
 hello,hello
-thank you,help me
+thank you,thank you
 stop,stop
-stop,stop
+stop,thank you
 help me,thank you
-thank you,yes
-stop,stop
+thank you,help me
+stop,yes
 thank you,thank you
 hello,thank you
 yes,help me
-help me,help me
-thank you,thank you
-thank you,thank you
-yes,stop
 help me,thank you
-thank you,stop
-yes,stop
-stop,stop
-thank you,stop
+thank you,thank you
+thank you,thank you
+yes,yes
+help me,thank you
+thank you,thank you
+yes,help me
+stop,thank you
+thank you,yes
 yes,thank you
 yes,yes
-help me,stop
+help me,thank you
 help me,help me
 stop,help me
 thank you,thank you
-hello,stop
-hello,hello
+hello,thank you
+hello,thank you
 help me,help me
 stop,help me
 yes,help me
-yes,stop
+yes,yes
+hello,thank you
+stop,help me
+thank you,thank you
+hello,hello
+help me,help me
+hello,hello
+yes,yes
+yes,thank you
+help me,yes
+stop,help me
+thank you,yes
+stop,thank you
+hello,help me
+help me,yes
+stop,help me
+hello,hello
+help me,help me
+yes,yes
+help me,thank you
+help me,help me
+thank you,thank you
+hello,help me
+thank you,thank you
 hello,thank you
 stop,stop
 thank you,thank you
-hello,hello
-help me,hello
-hello,stop
-yes,yes
-yes,help me
-help me,yes
-stop,help me
-thank you,thank you
-stop,help me
-hello,hello
-help me,yes
 stop,stop
-hello,hello
+stop,stop
+yes,thank you
 help me,help me
-yes,yes
-help me,hello
 help me,thank you
-thank you,help me
-hello,help me
-thank you,help me
+thank you,thank you
+thank you,stop
+yes,thank you
+stop,thank you
+hello,hello
+thank you,yes
+hello,thank you
+hello,hello
+yes,yes
+yes,hello
+thank you,thank you
+yes,stop
+hello,thank you
+hello,stop
+yes,thank you
+stop,stop
+yes,yes
+yes,thank you
+yes,help me
+thank you,thank you
+help me,help me
+help me,thank you
 hello,yes
 stop,stop
-thank you,thank you
-stop,stop
-stop,stop
-yes,thank you
-help me,help me
-help me,help me
-thank you,stop
-thank you,stop
-yes,thank you
-stop,yes
-hello,hello
-thank you,yes
-hello,help me
-hello,thank you
-yes,help me
-yes,stop
-thank you,hello
-yes,stop
-hello,stop
-hello,stop
-yes,yes
-stop,help me
-yes,yes
-yes,yes
-yes,help me
-thank you,thank you
-help me,help me
-help me,hello
-hello,hello
-stop,stop
 stop,help me
 hello,thank you
 hello,hello
-help me,help me
+help me,thank you
 yes,hello
 thank you,thank you
 stop,thank you
-stop,stop
+stop,yes
 help me,hello
 help me,thank you
-stop,stop
-thank you,yes
+stop,thank you
+thank you,thank you
 help me,yes
 help me,help me
-help me,yes
-help me,yes
+help me,hello
+help me,help me
 thank you,thank you
-thank you,thank you
-thank you,stop
-hello,hello
-stop,stop
-help me,thank you
-stop,stop
-stop,stop
-hello,hello
-hello,hello
-yes,yes
-stop,stop
-thank you,help me
-yes,help me
-yes,yes
+thank you,hello
+thank you,hello
 hello,yes
 stop,stop
+help me,yes
+stop,stop
+stop,stop
+hello,hello
+hello,hello
 yes,stop
 stop,stop
-stop,yes
-help me,thank you
+thank you,help me
+yes,stop
+yes,yes
+hello,help me
 stop,yes
 yes,yes
-yes,help me
+stop,stop
+stop,yes
+help me,hello
+stop,yes
 yes,yes
-help me,help me
-help me,help me
-thank you,thank you
+yes,thank you
+yes,yes
+help me,stop
+help me,hello
+thank you,hello
 hello,stop
-hello,thank you
+hello,yes
 hello,hello
 yes,hello
 help me,yes
-yes,thank you
+yes,yes
 yes,hello
 stop,stop
 stop,stop
 thank you,thank you
-thank you,hello
+thank you,thank you
 thank you,hello
 hello,thank you
 hello,hello
 hello,hello
 thank you,thank you
-thank you,yes
+thank you,hello
 help me,thank you
 help me,hello
 hello,hello
@@ -554,151 +555,151 @@ help me,help me
 help me,help me
 help me,help me
 help me,help me
-thank you,thank you
-thank you,thank you
-yes,yes
-yes,yes
-yes,thank you
-thank you,thank you
-thank you,stop
-yes,thank you
-hello,stop
-hello,stop
-stop,stop
-help me,help me
-stop,stop
-stop,stop
 thank you,yes
 thank you,thank you
+yes,yes
+yes,help me
 yes,thank you
+thank you,thank you
+thank you,thank you
+yes,thank you
+hello,stop
+hello,thank you
+stop,thank you
 help me,help me
+stop,thank you
+stop,yes
+thank you,yes
+thank you,thank you
+yes,yes
 help me,thank you
-hello,stop
-thank you,yes
+help me,thank you
+hello,yes
+thank you,thank you
 stop,stop
-yes,stop
-yes,stop
+yes,hello
+yes,thank you
 thank you,thank you
 thank you,yes
 yes,yes
-hello,hello
-hello,hello
 hello,stop
+hello,hello
+hello,hello
 stop,stop
 hello,thank you
 help me,help me
 stop,thank you
-stop,stop
+stop,thank you
 stop,stop
 help me,thank you
-help me,hello
+help me,help me
+hello,thank you
 hello,hello
-hello,stop
 yes,yes
-yes,hello
-stop,stop
+yes,yes
+stop,thank you
 stop,hello
 hello,hello
-stop,stop
-thank you,thank you
-help me,yes
-help me,hello
-stop,thank you
-stop,stop
-thank you,thank you
-thank you,stop
-thank you,help me
-help me,hello
-help me,help me
-yes,yes
-stop,stop
-thank you,thank you
-yes,stop
-hello,hello
-yes,help me
-stop,help me
-hello,yes
-hello,hello
-stop,stop
-help me,hello
-hello,hello
-yes,yes
-help me,hello
-thank you,yes
-hello,yes
-thank you,help me
-help me,hello
-hello,yes
-stop,thank you
-stop,stop
-thank you,help me
-yes,yes
-thank you,stop
-hello,yes
-yes,stop
-hello,help me
-thank you,thank you
-stop,stop
-yes,hello
-help me,hello
-yes,help me
-yes,hello
-help me,help me
-yes,stop
-stop,stop
-help me,help me
-hello,help me
-thank you,thank you
-hello,help me
-thank you,thank you
-stop,stop
-thank you,hello
-yes,yes
-yes,stop
-yes,yes
-hello,thank you
-yes,thank you
-help me,yes
-hello,hello
-stop,stop
-help me,help me
-thank you,thank you
-help me,help me
-hello,thank you
-yes,hello
 stop,help me
 thank you,thank you
-help me,help me
-stop,stop
-stop,stop
-hello,hello
-yes,yes
-thank you,hello
+help me,hello
+help me,hello
 stop,yes
+stop,stop
+thank you,thank you
+thank you,stop
+thank you,help me
+help me,hello
+help me,help me
+yes,stop
+stop,stop
+thank you,thank you
+yes,help me
+hello,hello
 yes,yes
 stop,thank you
 hello,yes
+hello,hello
+stop,thank you
+help me,hello
+hello,thank you
+yes,stop
+help me,hello
 thank you,yes
-thank you,hello
-help me,help me
 hello,yes
+thank you,hello
+help me,hello
+hello,hello
+stop,thank you
+stop,yes
+thank you,help me
+yes,hello
+thank you,stop
+hello,yes
+yes,help me
+hello,thank you
+thank you,thank you
+stop,stop
+yes,hello
+help me,hello
+yes,thank you
+yes,hello
+help me,thank you
+yes,yes
+stop,stop
+help me,help me
+hello,thank you
+thank you,thank you
+hello,yes
+thank you,thank you
+stop,stop
+thank you,hello
+yes,yes
+yes,thank you
+yes,hello
+hello,thank you
+yes,stop
+help me,hello
+hello,hello
+stop,stop
+help me,stop
+thank you,thank you
+help me,help me
+hello,thank you
+yes,hello
 stop,stop
 thank you,thank you
 help me,thank you
-hello,help me
-help me,help me
+stop,thank you
+stop,yes
+hello,hello
+yes,thank you
+thank you,hello
+stop,yes
 yes,hello
+stop,thank you
+hello,yes
+thank you,thank you
+thank you,help me
+help me,thank you
 hello,hello
 stop,stop
+thank you,thank you
+help me,stop
+hello,help me
 help me,help me
-yes,yes
-hello,yes
-help me,yes
+yes,stop
+hello,hello
+stop,stop
+help me,stop
+yes,thank you
+hello,hello
+help me,hello
 stop,stop
 thank you,thank you
-yes,yes
+yes,stop
 help me,help me
-stop,stop
+stop,help me
 yes,yes
-thank you,yes
-thank you,stop
+thank you,hello
+thank you,thank you
