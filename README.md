@@ -107,7 +107,6 @@ Team Members and Roles:
  
 - Sprint 4
     - Improvements of Backend
-        - As the backend developer I want to complete further training of models and fine tuning so that the final iteration has the best accuracy possible.
         - Adjust, validate, and test model
     - Feature-Driven Development
         - Implement additional features and enhancements based on client feedback and project requirements
@@ -123,7 +122,4 @@ Team Members and Roles:
         - Presentations and submission
     - Revisit Deep Learning Model for Revisions
         - As a team we want to ensure the model is the best possible and reaffirm the final changes are sound so that the model is as refined as possible.
-
-
-
 
