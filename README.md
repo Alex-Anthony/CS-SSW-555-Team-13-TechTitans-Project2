@@ -78,14 +78,11 @@ Team Members and Roles:
     - Testing
         - Conduct comprehensive testing of implemented functionalities to identify and address any defects or issues
         - Perform integration testing to ensure seamless interaction between the deep learning model and the front-end interface
-        - As a developer, I will conduct comprehensive testing of all implemented functions to identify and address any issues, ensuring seamless interaction between the front end interface and the deep learning model.
         - Automated Testing Implementation Development
     - Backend Deep Learning & Database Implementation (Pair Programming)
-        - As a back-end developer, I want to work on the back-end functionalities of our system collaboratively, so that we can leverage collective knowledge and improve code quality.
      
 - Sprint 3
     - Front End Avatar Implementation (Pair Programming)
-        - As a front-end developer, I want to pair up with another programmer to work together on implementing core functionalities of our web application, so that we can share knowledge and ensure efficient code.
         - Pair programming sessions are regularly scheduled.
         - Core functionalities of the front end are implemented successfully and collaboratively.
         - Avatar Creation
@@ -98,7 +95,6 @@ Team Members and Roles:
         - Optimize performance where necessary
         - Testing Refactoring
     - Testing of Integration
-        - As a software tester, I want to continue testing activities to validate the reliability and accuracy of the system, and implement automated testing frameworks to streamline the process and ensure consistent results, so that the integrated system operates flawlessly
         - Automated testing frameworks are successfully implemented and integrated.
         - Tests cover all critical functionalities and integrations of the system.
         - The system demonstrates consistent reliability and accuracy in test results.
@@ -106,7 +102,6 @@ Team Members and Roles:
         - As a team we want to reevaluate how our results are being used in the front end so that we can determine how we need to update the model or whether it needs improvement.
         - Make possible updates to model
     - Finalize Web App and Database Model Integration
-        - As the backend developer I want to ensure that results from the machine are being handed over to the Web App correctly so that the results can be used properly.
         - Test results in model are continuous to frontend
         - Finalize integration system
  
