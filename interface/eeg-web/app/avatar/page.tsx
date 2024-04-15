@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
-import { myOutcomes } from "@/app/components/GetMessage";
+import { myOutcomes, accuracy } from "@/app/components/GetMessage";
 import NewAvatar from "../components/NewAvatar";
 
 const page = () => {
@@ -12,7 +12,7 @@ const page = () => {
       <Title title="Avatar"></Title>
       <div className="p-5">
         <NewAvatar getoutcomes={myOutcomes}></NewAvatar>
-
+        <div className="py-5 text-3xl font-primary font-bold text-center">Current accuracy: {accuracy.toFixed(2)}%</div>
       </div>
     </div>
   );

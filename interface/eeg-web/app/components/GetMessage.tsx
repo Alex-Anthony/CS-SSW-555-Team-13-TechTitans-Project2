@@ -10,7 +10,7 @@ interface Outcome {
     prediction: string;
 }
 
-const csvFilePath = path.resolve(__dirname, '/workspaces/CS-SSW-555-Team-13-TechTitans-Project2/interface/eeg-web/model_outcomes.csv');
+const csvFilePath = path.resolve(__dirname, '/workspaces/CS-SSW-555-Team-13-TechTitans-Project2/MachineLearningModel/model_outcomes.csv');
 const fileContent = fs.readFileSync(csvFilePath, { encoding: 'utf-8' });
 
 const parseFile = (csvData = fileContent): Outcome[] => {
@@ -27,7 +27,27 @@ const parseFile = (csvData = fileContent): Outcome[] => {
 
 const myOutcomes: Outcome[] = parseFile();
 
-export { myOutcomes }
+const correct: Outcome[] = myOutcomes.filter(filtercorrect);
+
+function filtercorrect(value: Outcome, index : number, array : Outcome[]) {
+    return value.prediction == value.data;
+  }
+  
+
+
+function getAccuracy(data : Outcome[]){
+    let count = 0;
+    data.forEach(e => {
+        if(e.data.trim() == e.prediction){
+            count++;
+        }
+    });
+    return (count/ data.length)* 100;
+}
+
+const accuracy = getAccuracy(myOutcomes);
+
+export { myOutcomes, accuracy }
 
 
 
