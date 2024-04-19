@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
         <Title title="About the Team">
-          We had an excellent team of 5! Here's some more about them and their
+          We had an excellent team of 5! Here&apos;s some more about them and their
           roles in this project.
         </Title>
         <div className="grid grid-cols-3 p-5 gap-5 gap-y-10 justify-items-stretch">
