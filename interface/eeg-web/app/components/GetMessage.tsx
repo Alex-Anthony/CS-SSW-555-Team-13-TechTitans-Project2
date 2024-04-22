@@ -29,20 +29,31 @@ const myOutcomes: Outcome[] = parseFile();
 
 const correct: Outcome[] = myOutcomes.filter(filtercorrect);
 
-function filtercorrect(value: Outcome, index : number, array : Outcome[]) {
+function filtercorrect(value: Outcome, index: number, array: Outcome[]) {
     return value.prediction == value.data;
-  }
-  
+}
 
 
-function getAccuracy(data : Outcome[]){
+
+function getAccuracy(data: Outcome[]) {
     let count = 0;
     data.forEach(e => {
-        if(e.data.trim() == e.prediction){
+        if (e.data.trim() == e.prediction) {
             count++;
         }
     });
-    return (count/ data.length)* 100;
+    return (count / data.length) * 100;
+}
+
+function getAccuracyNum(data: Outcome[], index: number) {
+    let count = 0;
+    for (let i = 0; i <= index; i++) {
+        if (data[i].data == data[i].prediction) {
+            count++
+        }
+
+    }
+    return (count / (index + 1)) * 100;
 }
 
 const accuracy = getAccuracy(myOutcomes);
