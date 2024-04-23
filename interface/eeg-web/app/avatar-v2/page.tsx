@@ -8,12 +8,12 @@ const page = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Title title="Chat"></Title>
+            <Title title="Chat v1"></Title>
             <div className="flex justify-around">
                 <div className='flex w-3/6 place-items-center'>
                     <div className="card w-full h-fit bg-base-200">
                         <div className="card-body m-5 items-center">
-                            <h2 className="card-title text-center font-bold text-3xl">Second iteration</h2>
+                            <h2 className="card-title text-center font-bold text-3xl">Second Iteration</h2>
                             <p className='text-xl'>In our second rendition, delivered during sprint three,
                                 we integrated the data output into a chat bot format. This version aims to
                                 communicate accurately based on the given data input. It provides responses

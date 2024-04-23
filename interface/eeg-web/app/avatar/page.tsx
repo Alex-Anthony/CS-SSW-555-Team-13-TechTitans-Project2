@@ -14,7 +14,7 @@ const page = () => {
       <div className="flex flex-col w-full items-center">
         <div className="card w-4/6 bg-base-100">
           <div className="card-body items-center">
-            <h2 className="card-title text-center">First iteration</h2>
+            <h2 className="card-title text-center">First Iteration</h2>
             <p>Our initial implementation, developed for our second sprint,
               prioritized usability and functionality. The UI was kept simple,
               focusing on making the website functional. On the left the correct

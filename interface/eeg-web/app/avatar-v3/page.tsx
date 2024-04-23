@@ -13,7 +13,7 @@ const page = () => {
                 <div className='flex w-3/6 place-items-center'>
                     <div className="card w-full h-fit bg-base-200">
                         <div className="card-body m-5 items-center">
-                            <h2 className="card-title text-center font-bold text-3xl">Third iteration</h2>
+                            <h2 className="card-title text-center font-bold text-3xl">Third Iteration</h2>
                             <p className='text-xl'>Our final rendition introduces enhancements to both the
                                 response system and UI for improved readability. The chat system now delivers
                                 messages, indicating the model&apos;s guess. A red bubble signifies an incorrect
