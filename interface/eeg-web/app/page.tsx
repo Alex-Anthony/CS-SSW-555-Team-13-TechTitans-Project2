@@ -32,7 +32,7 @@ export default function Home() {
                 actions.
               </p>
               <button className="btn btn-primary">
-                <Link href="/avatar">Try Our Avatar</Link>
+                <Link href="/avatar-v3">Try Our Avatar</Link>
               </button>
             </div>
           </div>

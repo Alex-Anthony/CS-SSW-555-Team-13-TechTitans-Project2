@@ -8,8 +8,22 @@ const page = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <Title title="Avatar"></Title>
-            <div className="p-5">
+            <Title title="Chat"></Title>
+            <div className="flex justify-around">
+                <div className='flex w-3/6 place-items-center'>
+                    <div className="card w-full h-fit bg-base-200">
+                        <div className="card-body m-5 items-center">
+                            <h2 className="card-title text-center font-bold text-3xl">Second iteration</h2>
+                            <p className='text-xl'>In our second rendition, delivered during sprint three,
+                                we integrated the data output into a chat bot format. This version aims to
+                                communicate accurately based on the given data input. It provides responses
+                                corresponding to each guess option from the EEG data. The algorithm&apos;s effectiveness
+                                is determined by the coherence of its responses—if the reply aligns logically
+                                with the input, the algorithm is working as intended.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="flex justify-center">
                     <div className="relative mockup-phone z-0">
                         <div className="camera"></div>
