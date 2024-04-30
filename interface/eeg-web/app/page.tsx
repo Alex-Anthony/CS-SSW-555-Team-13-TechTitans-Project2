@@ -65,9 +65,11 @@ export default function Home() {
                 of the deep learning model to command an avatar to perform a few
                 actions.
               </p>
-              <button className="btn btn-primary">
-                <Link href="/avatar-v3">Try Our Avatar</Link>
-              </button>
+              <Link href="/avatar-v3">
+                <button className="btn btn-primary">
+                  Try Our Avatar
+                </button>
+              </Link>
             </div>
           </div>
         </div>
