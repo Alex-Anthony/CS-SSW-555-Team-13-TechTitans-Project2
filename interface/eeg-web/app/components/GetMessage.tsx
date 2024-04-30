@@ -10,7 +10,7 @@ interface Outcome {
     prediction: string;
 }
 
-const csvFilePath = path.resolve(__dirname, '/workspaces/CS-SSW-555-Team-13-TechTitans-Project2/MachineLearningModel/model_outcomes.csv');
+const csvFilePath = path.resolve(process.cwd(), 'MachineLearningModel/model_outcomes.csv');
 const fileContent = fs.readFileSync(csvFilePath, { encoding: 'utf-8' });
 
 const parseFile = (csvData = fileContent): Outcome[] => {
