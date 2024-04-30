@@ -82,7 +82,7 @@ const Chat = ({ getoutcomes }: Props) => {
 
 
     const addBubble = () => {
-        setCounter(counter + 1);
+        setCounter((counter<getoutcomes.length)? counter + 1: 0);
         return (
 
             <div className='flex w-full flex-col'>

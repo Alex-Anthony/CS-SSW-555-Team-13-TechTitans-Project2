@@ -58,10 +58,10 @@ export default function Home() {
               </h1>
               <p className="mb-5">
                 EEG translation system, capable of translating specific thoughts
-                into actionable commands or words. it has the potential to
+                into actionable commands or words. It has the potential to
                 transform a lot of different fields including healthcare, and
                 immersive experiences in virtual and augmented reality, as well
-                as gaming. this bot focuses on implementing the augmented output
+                as gaming. This bot focuses on implementing the augmented output
                 of the deep learning model to command an avatar to perform a few
                 actions.
               </p>
